@@ -40,6 +40,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private void ShowCheers(int countToDestroy)
         {
+            return;
             if (lastCheersTime > 0)
             {
                 return;

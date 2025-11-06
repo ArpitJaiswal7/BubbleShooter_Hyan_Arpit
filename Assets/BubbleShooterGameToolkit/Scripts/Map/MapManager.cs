@@ -53,9 +53,9 @@ namespace BubbleShooterGameToolkit.Scripts.Map
             }
             OnLastLevelPosition?.Invoke(openedLevels[^1].transform.position);
             Instantiate(circlePrefab,openedLevels[^1].transform.position, Quaternion.identity, levelsGrid);
-            MoveAvatar();
+            //MoveAvatar();
 
-            
+            AvatarComplete(openedLevels[^1].number);
         }
 
         private void MoveAvatar()
