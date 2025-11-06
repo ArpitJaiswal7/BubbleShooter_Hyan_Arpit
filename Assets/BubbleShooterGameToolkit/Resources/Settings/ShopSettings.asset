@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f120804c1af4d12859890eb4f9cda57, type: 3}
+  m_Name: ShopSettings
+  m_EditorClassIdentifier: 
+  shopItems:
+  - productID: coins_pack_20
+    coins: 20
+    discountPercent: 0
+  - productID: coins_pack_20
+    coins: 20
+    discountPercent: 0
+  - productID: coins_pack_50
+    coins: 50
+    discountPercent: 0
+  - productID: coins_pack_100
+    coins: 100
+    discountPercent: 0
+  - productID: coins_pack_200
+    coins: 200
+    discountPercent: 0

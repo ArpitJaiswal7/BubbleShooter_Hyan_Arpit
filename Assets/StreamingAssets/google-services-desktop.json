@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "521463076031",
+    "project_id": "bubble-shooter-cloud",
+    "storage_bucket": "bubble-shooter-cloud.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521463076031:ios:792c9fa783931f3f17220a",
+        "android_client_info": {
+          "package_name": "com.BubbleShooterCloud"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD56ZT4dSHwpNOn-yTwwD2gGE3fYhTk5h8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
