@@ -256,7 +256,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                 }
             }
 
-            Instantiate(Resources.Load("FX/FireworkLauncher"));
+            Instantiate(Resources.Load("FX/NewLauncher"));
             
             yield return new WaitUntil(()=>!waitforPopup);
 
