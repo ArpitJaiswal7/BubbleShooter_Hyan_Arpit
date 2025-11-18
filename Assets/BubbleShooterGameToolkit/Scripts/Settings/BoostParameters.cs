@@ -11,12 +11,12 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.Gameplay;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Gameplay;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
     [Serializable]
     public class BoostParameters

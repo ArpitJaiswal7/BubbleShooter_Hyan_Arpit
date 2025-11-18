@@ -1,11 +1,11 @@
 using System;
-using BubbleShooterGameToolkit.Scripts.Ads;
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Ads;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
     public class AdsSettings : ScriptableObject
     {

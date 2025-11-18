@@ -12,7 +12,7 @@
 
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class Confirmation : Popup
     {

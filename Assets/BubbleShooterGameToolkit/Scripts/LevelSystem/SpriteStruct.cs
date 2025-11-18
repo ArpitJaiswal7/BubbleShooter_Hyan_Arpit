@@ -14,7 +14,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.LevelSystem
 {
     [Serializable]
     public struct SpriteStruct

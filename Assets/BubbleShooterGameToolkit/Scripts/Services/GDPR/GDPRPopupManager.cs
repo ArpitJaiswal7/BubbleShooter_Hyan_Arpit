@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Services.GDPR
+namespace com.kshkum.ShootGame.Scripts.Services.GDPR
 {
     public class GDPRPopupManager : MonoBehaviour
     {

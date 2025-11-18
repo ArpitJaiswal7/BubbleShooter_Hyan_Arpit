@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.System;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Labels
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Labels
 {
     public class LifeTimerLabel : Label
     {

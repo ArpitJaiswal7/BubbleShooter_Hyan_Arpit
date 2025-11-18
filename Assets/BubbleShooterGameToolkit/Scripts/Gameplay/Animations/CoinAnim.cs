@@ -11,11 +11,11 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Animations
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Animations
 {
     public class CoinAnim : MonoBehaviour
     {

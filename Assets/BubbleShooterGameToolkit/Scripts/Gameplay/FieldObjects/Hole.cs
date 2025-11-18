@@ -12,14 +12,14 @@
 
 #region
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Settings;
 using UnityEngine;
 
 #endregion
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects
 {
     public class Hole : ObjectTrigger
     {

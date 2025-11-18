@@ -12,11 +12,11 @@
 
 using System;
 using System.Collections;
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI
+namespace com.kshkum.ShootGame.Scripts.CommonUI
 {
     public class LifeRefillTimer : MonoBehaviour
     {

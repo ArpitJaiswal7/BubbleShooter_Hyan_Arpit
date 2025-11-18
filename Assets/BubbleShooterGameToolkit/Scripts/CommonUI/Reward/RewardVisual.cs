@@ -13,7 +13,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Reward
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Reward
 {
     public class RewardVisual : MonoBehaviour
     {

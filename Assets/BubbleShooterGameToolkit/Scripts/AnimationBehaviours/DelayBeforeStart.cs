@@ -13,7 +13,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace BubbleShooterGameToolkit.Scripts.AnimationBehaviours
+namespace com.kshkum.ShootGame.Scripts.AnimationBehaviours
 {
     public class DelayBeforeStart : StateMachineBehaviour
     {

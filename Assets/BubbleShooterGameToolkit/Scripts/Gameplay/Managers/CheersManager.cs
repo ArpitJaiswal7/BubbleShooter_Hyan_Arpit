@@ -11,12 +11,12 @@
 
 
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     public class CheersManager : MonoBehaviour
     {

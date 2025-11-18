@@ -10,15 +10,15 @@
 //
 //
 
-//using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
+//using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
 //using UnityEngine;
 //#if ADMOB
 //using GoogleMobileAds.Api;
 //#endif
 
-//namespace BubbleShooterGameToolkit.Scripts.Ads.Networks
+//namespace com.kshkum.ShootGame.Scripts.Ads.Networks
 //{
-//    [CreateAssetMenu(fileName = "AdmobHandler", menuName = "BubbleShooterGameToolkit/Ads/AdmobHandler")]
+//    [CreateAssetMenu(fileName = "AdmobHandler", menuName = "com.kshkum.ShootGame/Ads/AdmobHandler")]
 //    public class AdmobHandler : AdsHandlerBase
 //    {
 //        private IAdsListener _listener;

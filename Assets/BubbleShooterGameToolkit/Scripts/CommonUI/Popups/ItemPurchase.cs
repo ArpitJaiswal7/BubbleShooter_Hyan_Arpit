@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Ads.Networks;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Services;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Ads.Networks;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Services;
+using com.kshkum.ShootGame.Scripts.Settings;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
@@ -21,7 +21,7 @@ using UnityEngine.Assertions.Must;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.XR;
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class ItemPurchase : MonoBehaviour
     {

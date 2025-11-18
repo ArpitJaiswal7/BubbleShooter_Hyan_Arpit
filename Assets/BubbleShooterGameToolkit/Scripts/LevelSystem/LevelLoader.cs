@@ -11,10 +11,10 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.LevelSystem
 {
     public class LevelLoader : Singleton<LevelLoader>
     {

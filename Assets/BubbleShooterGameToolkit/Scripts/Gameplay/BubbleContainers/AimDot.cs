@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers
 {
     /// a dot for aim line
     public class AimDot : MonoBehaviour

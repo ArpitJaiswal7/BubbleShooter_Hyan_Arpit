@@ -12,7 +12,7 @@
 
 using System;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public class Singleton<T> where T : class
     {

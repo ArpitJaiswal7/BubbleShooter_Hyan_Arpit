@@ -11,13 +11,13 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Utils;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class Popup : MonoBehaviour
     {

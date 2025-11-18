@@ -1,18 +1,6 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
 using System;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads.AdUnits
+namespace com.kshkum.ShootGame.Scripts.Ads.AdUnits
 {
     public class AdUnit
     {

@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Animations
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Animations
 {
     public class AnimationEvents : MonoBehaviour
     {

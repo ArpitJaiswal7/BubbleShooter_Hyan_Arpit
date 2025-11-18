@@ -14,15 +14,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Animations;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems;
+using com.kshkum.ShootGame.Scripts.Gameplay.Animations;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems;
 using DG.Tweening;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     public class DestroyManager
     {

@@ -11,11 +11,11 @@
 
 
 using System.Collections;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types
 {
     class Collapsar : AbsorbingBall
     {

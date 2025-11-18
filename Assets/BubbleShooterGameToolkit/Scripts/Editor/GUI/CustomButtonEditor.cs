@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -10,13 +10,13 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI.Editor
+namespace com.kshkum.ShootGame.Scripts.Gameplay.GUI.Editor
 {
     public class CustomButtonEditor
     {

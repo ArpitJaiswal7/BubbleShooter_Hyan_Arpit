@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI
+namespace com.kshkum.ShootGame.Scripts.CommonUI
 {
     public enum Powerups
     {

@@ -13,7 +13,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     /// Fader class for fading the screen when a popup is shown
     public class Fader : MonoBehaviour

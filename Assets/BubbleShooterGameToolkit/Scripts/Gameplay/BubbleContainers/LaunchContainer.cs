@@ -11,15 +11,15 @@
 
 
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Rendering;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers
 {
     /// Throws balls
     public class LaunchContainer : BallContainerBase

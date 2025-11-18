@@ -13,7 +13,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
     public class AnimatedTarget : AnimatedTargetBase
     {

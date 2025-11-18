@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace BubbleShooterGameToolkit.Scripts.Audio
+namespace com.kshkum.ShootGame.Scripts.Audio
 {
     [RequireComponent(typeof(AudioSource))]
     public class MusicBase : SingletonBehaviour<MusicBase>

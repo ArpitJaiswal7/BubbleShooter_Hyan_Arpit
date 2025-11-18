@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     public partial class LevelManager
     {

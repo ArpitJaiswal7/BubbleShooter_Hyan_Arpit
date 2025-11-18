@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels
 {
     public class RandomDestructor : LabelItem
     {

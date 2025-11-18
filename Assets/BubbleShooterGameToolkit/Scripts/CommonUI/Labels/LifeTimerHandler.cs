@@ -10,12 +10,12 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Labels
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Labels
 {
     public class LifeTimerHandler : MonoBehaviour
     {

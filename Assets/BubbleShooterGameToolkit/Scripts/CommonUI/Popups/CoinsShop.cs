@@ -11,12 +11,12 @@
 
 
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Services;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Services;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class CoinsShop : PopupWithCurrencyLabel
     {

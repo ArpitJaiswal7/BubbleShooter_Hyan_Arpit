@@ -10,15 +10,15 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     public class BallDestruction
     {

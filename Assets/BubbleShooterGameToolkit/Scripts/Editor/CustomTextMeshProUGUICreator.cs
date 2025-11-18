@@ -1,21 +1,9 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
-using BubbleShooterGameToolkit.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor
+namespace com.kshkum.ShootGame.Scripts.Editor
 {
     public static class CustomTextMeshProUGUICreator
     {

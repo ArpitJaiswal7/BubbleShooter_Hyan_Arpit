@@ -11,13 +11,13 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems
 {
     [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class Rocket : MonoBehaviour

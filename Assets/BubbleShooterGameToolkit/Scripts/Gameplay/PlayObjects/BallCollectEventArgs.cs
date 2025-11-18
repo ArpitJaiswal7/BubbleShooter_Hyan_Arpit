@@ -10,9 +10,9 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     public struct BallCollectEventArgs
     {

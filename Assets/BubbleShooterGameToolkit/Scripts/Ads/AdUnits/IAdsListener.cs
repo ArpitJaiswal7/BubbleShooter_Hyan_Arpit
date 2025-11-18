@@ -1,16 +1,4 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
-namespace BubbleShooterGameToolkit.Scripts.Ads.AdUnits
+namespace com.kshkum.ShootGame.Scripts.Ads.AdUnits
 {
     public interface IAdsListener
     {

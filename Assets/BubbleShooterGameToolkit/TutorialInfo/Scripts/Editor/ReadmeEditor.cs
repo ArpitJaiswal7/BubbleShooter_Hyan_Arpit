@@ -1,22 +1,10 @@
-﻿// // ©2015 - 2022 Candy Smith
- 
-
-
-// 
-
-
-// // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-
-
-
-
-
+﻿
 using System.IO;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.TutorialInfo.Scripts.Editor
+namespace com.kshkum.ShootGame.TutorialInfo.Scripts.Editor
 {
 	[CustomEditor(typeof(Readme))]
 	[InitializeOnLoad]

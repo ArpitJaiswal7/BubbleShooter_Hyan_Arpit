@@ -10,14 +10,14 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects
 {
     public class Bouncing : MonoBehaviour
     {

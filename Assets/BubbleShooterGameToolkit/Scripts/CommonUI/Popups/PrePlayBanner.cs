@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     class PrePlayBanner : Banner
     {

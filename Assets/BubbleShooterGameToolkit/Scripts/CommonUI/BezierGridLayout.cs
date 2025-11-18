@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI
+namespace com.kshkum.ShootGame.Scripts.CommonUI
 {
     public class BezierGridLayout : GridLayoutGroup
     {

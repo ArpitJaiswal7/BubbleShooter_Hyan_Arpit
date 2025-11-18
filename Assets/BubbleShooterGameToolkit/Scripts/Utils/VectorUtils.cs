@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Utils
+namespace com.kshkum.ShootGame.Scripts.Utils
 {
     public static class VectorUtils
     {

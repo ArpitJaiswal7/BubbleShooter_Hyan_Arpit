@@ -11,13 +11,13 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels
 {
     public class Attachable : Targetable
     {

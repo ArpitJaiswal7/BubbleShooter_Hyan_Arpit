@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor
+namespace com.kshkum.ShootGame.Scripts.Editor
 {
     public class MaterialUpdater : EditorWindow
     {

@@ -13,7 +13,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Map
+namespace com.kshkum.ShootGame.Scripts.Map
 {
     public class PatrollingParticle : MonoBehaviour
     {

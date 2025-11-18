@@ -13,25 +13,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Animations;
-using BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.GUI;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.System;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Animations;
+using com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers;
+using com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.GUI;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     /// Core gameplay type processing entire game loop from start to end
     public partial class LevelManager : SingletonBehaviour<LevelManager>

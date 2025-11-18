@@ -12,17 +12,17 @@
 
 using System;
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Covers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Properties;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Covers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Properties;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     /// basic ball class
     public partial class Ball : Targetable

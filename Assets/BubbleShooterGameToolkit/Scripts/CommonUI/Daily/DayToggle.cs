@@ -13,7 +13,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Daily
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Daily
 {
     public class DayToggle : MonoBehaviour
     {

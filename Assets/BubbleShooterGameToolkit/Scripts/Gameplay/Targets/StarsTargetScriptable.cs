@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
     class StarsTargetScriptable : TargetScriptable
     {

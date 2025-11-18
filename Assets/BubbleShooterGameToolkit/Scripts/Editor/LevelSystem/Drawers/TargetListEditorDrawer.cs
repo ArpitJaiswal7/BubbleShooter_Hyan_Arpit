@@ -1,4 +1,4 @@
-﻿// // ©2015 - 2024 Candy Smith
+﻿
  
 
 
@@ -12,14 +12,14 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem.Drawers
+namespace com.kshkum.ShootGame.Scripts.Editor.LevelSystem.Drawers
 {
     [CustomPropertyDrawer(typeof(Gameplay.Targets.Target))]
     [CanEditMultipleObjects]

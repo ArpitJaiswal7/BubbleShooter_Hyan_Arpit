@@ -10,15 +10,15 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.System;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Utils;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types
 {
     public class RotatingLevelBall : SingletonBehaviour<RotatingLevelBall>
     {

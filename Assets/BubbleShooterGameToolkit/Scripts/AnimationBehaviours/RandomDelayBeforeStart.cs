@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.AnimationBehaviours
+namespace com.kshkum.ShootGame.Scripts.AnimationBehaviours
 {
     public class RandomDelayBeforeStart : StateMachineBehaviour
     {

@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
 using TMPro;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Animations
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Animations
 {
     //score pop-up animation
     public class ScoreAnim : MonoBehaviour

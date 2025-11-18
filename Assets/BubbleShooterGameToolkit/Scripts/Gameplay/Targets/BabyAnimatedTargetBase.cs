@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
     public class BabyAnimatedTargetBase : AnimatedTargetBase
     {

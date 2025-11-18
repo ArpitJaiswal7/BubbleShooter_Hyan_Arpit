@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Pool
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Pool
 {
     class InitialAmountPool : PoolObject
     {

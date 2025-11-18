@@ -16,7 +16,7 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public class TimeManager : MonoBehaviour
     {

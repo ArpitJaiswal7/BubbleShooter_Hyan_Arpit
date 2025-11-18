@@ -14,7 +14,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Labels
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Labels
 {
 	public class Label : MonoBehaviour
 	{

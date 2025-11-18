@@ -13,7 +13,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Data
+namespace com.kshkum.ShootGame.Scripts.Data
 {
     public abstract class ResourceObject : ScriptableObject
     {

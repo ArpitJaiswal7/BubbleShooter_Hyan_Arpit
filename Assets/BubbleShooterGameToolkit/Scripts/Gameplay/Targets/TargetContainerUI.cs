@@ -11,12 +11,12 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
     public class TargetContainerUI : MonoBehaviour
     {

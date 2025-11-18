@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Audio;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     public interface IBallSoundable
     {

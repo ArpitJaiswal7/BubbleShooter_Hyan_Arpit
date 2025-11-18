@@ -13,7 +13,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
 	public class PurchasedMenu : Popup {
 		[SerializeField] private Transform icon;

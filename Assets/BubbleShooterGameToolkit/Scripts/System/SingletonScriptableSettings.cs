@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public abstract class SingletonScriptableSettings<T> : ScriptableObject where T : ScriptableObject
     {

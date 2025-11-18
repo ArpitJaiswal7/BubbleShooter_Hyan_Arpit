@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types
 {
     public class CenterRotationBall : Ball
     {

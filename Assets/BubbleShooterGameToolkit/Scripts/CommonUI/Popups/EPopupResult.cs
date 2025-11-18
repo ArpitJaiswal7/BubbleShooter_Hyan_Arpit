@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public enum EPopupResult
     {

@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
+namespace com.kshkum.ShootGame.Scripts.Gameplay.GUI
 {
     public class BackgroundManager : MonoBehaviour
     {

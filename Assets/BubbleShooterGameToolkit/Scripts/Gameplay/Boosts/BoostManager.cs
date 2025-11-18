@@ -11,11 +11,11 @@
 
 
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Boosts
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Boosts
 {
     public class BoostManager : Singleton<BoostManager>
     {

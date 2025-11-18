@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.System;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Boosts
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Boosts
 {
     public class ExtraTime : BoostResource
     {

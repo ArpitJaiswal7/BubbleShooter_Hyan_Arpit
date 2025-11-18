@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -14,7 +14,7 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings.Editor
+namespace com.kshkum.ShootGame.Scripts.Settings.Editor
 {
     [CustomEditor(typeof(GameplaySettings))]
     public class GamePlaySettingsEditor : UnityEditor.Editor

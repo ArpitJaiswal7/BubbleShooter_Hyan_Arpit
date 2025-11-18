@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     public class BallDestructionOptions
     {

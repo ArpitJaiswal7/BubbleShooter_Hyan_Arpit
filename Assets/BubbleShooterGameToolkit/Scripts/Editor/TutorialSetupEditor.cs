@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -11,12 +11,12 @@
 
 
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Tutorials;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.CommonUI.Tutorials;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
 using UnityEditor;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor
+namespace com.kshkum.ShootGame.Scripts.Editor
 {
     [CustomEditor(typeof(TutorialSetup))]
     public class TutorialSetupEditor : UnityEditor.Editor

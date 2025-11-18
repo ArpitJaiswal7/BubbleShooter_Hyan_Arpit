@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using TMPro;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Map
+namespace com.kshkum.ShootGame.Scripts.Map
 {
     public class LevelPin : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -10,12 +10,12 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor
+namespace com.kshkum.ShootGame.Scripts.Editor
 {
     [InitializeOnLoad]
     public class GameObjectRenameWatcher

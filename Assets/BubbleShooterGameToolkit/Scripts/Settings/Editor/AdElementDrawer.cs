@@ -1,23 +1,11 @@
-
- 
-
-
-
-
-
-
-
-
-
-
 #if UNITY_EDITOR
-using BubbleShooterGameToolkit.Scripts.Ads;
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.Ads;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings.Editor
+namespace com.kshkum.ShootGame.Scripts.Settings.Editor
 {
     [CustomPropertyDrawer(typeof(AdElement))]
     public class AdElementDrawer : PropertyDrawer

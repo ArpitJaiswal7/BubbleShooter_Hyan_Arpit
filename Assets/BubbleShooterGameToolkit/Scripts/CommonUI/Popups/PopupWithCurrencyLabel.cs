@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Audio;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class PopupWithCurrencyLabel : Popup
     {

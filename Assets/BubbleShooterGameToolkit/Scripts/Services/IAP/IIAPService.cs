@@ -13,7 +13,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace BubbleShooterGameToolkit.Scripts.Services
+namespace com.kshkum.ShootGame.Scripts.Services
 {
     public interface IIAPService
     {

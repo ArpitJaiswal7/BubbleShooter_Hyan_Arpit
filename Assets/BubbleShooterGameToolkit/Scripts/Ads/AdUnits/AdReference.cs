@@ -1,20 +1,9 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads.AdUnits
+namespace com.kshkum.ShootGame.Scripts.Ads.AdUnits
 {
-    [CreateAssetMenu(fileName = "AdReference", menuName = "BubbleShooterGameToolkit/Ads/AdReference")]
+    [CreateAssetMenu(fileName = "AdReference", menuName = "com.kshkum.ShootGame/Ads/AdReference")]
     public class AdReference : ScriptableObject
     {
         public EAdType adType;

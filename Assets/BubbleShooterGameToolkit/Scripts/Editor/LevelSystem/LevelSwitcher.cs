@@ -1,10 +1,10 @@
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.Editor.LevelSystem
 {
     public class LevelSwitcher : VisualElement
     {
@@ -18,7 +18,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
             this.levelEditor = levelEditor;
             this.levelSerializedObject = levelSerializedObject;
             this.level = level;
-            Draw(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/BubbleShooterGameToolkit/UIBuilder/LevelSwitcher.uxml").CloneTree());
+            Draw(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/com.kshkum.ShootGame/UIBuilder/LevelSwitcher.uxml").CloneTree());
         }
         
         private void Draw(TemplateContainer visualTree)
@@ -66,7 +66,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
                 PlayerPrefs.SetInt("OpenLevel", levelEditor.num);
                 PlayerPrefs.SetString("OpenLevelName", level.name);
                 PlayerPrefs.Save();
-                EditorSceneManager.OpenScene("Assets/BubbleShooterGameToolkit/Scenes/game.unity");
+                EditorSceneManager.OpenScene("Assets/com.kshkum.ShootGame/Scenes/game.unity");
                 EditorApplication.isPlaying = true;
             }
         }
@@ -77,7 +77,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
             var instance = ScriptableObject.CreateInstance<Level>();
             instance.name = "Level_" + levelsNum;
             // instance.targets = level.targets;
-            string assetPathAndName = AssetDatabase.GenerateUniqueAssetPath("Assets/BubbleShooterGameToolkit/Resources/Levels/Level_" + levelsNum + ".asset");
+            string assetPathAndName = AssetDatabase.GenerateUniqueAssetPath("Assets/com.kshkum.ShootGame/Resources/Levels/Level_" + levelsNum + ".asset");
             AssetDatabase.CreateAsset(instance, assetPathAndName);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubble_shooter_logo_2_0: 3326986309180032228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

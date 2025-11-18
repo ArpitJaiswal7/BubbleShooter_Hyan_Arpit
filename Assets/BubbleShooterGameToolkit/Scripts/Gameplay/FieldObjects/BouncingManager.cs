@@ -11,13 +11,13 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects
 {
     public class BouncingManager : SingletonBehaviour<BouncingManager> 
     {

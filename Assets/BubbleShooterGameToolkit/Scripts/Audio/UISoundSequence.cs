@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Audio
+namespace com.kshkum.ShootGame.Scripts.Audio
 {
     public class UISoundSequence :MonoBehaviour
     {

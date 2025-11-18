@@ -14,7 +14,7 @@
 using System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.TutorialInfo.Scripts
+namespace com.kshkum.ShootGame.TutorialInfo.Scripts
 {
 	public class Readme : ScriptableObject
 	{

@@ -11,12 +11,12 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
     public class TargetManager : SingletonBehaviour<TargetManager>
     {

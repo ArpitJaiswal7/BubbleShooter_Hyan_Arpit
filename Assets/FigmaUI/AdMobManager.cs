@@ -2,10 +2,10 @@
 using UnityEngine;
 using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
 //using com.unity3d.mediation;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads.Networks
+namespace com.kshkum.ShootGame.Scripts.Ads.Networks
 {
     public class AdMobManager : MonoBehaviour
     {

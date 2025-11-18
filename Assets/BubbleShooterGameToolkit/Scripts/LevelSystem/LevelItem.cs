@@ -13,16 +13,16 @@
 #region
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Covers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Hidden;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Covers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Hidden;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 #endregion
 
-namespace BubbleShooterGameToolkit.Scripts.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.LevelSystem
 {
     [Serializable]
     public struct LevelItemElement

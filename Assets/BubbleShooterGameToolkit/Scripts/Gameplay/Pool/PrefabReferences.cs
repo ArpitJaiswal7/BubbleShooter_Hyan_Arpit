@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Pool
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Pool
 {
     [CreateAssetMenu(fileName = "PrefabReferences", menuName = "Bubble Shooter/Prefab References")]
     public class PrefabReferences : ScriptableObject

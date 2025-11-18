@@ -13,7 +13,7 @@
 using System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Properties
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Properties
 {
     [Serializable]
     public class AudioProperties

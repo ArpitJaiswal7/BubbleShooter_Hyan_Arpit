@@ -10,12 +10,12 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Settings;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Boosts
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Boosts
 {
     /// Boost class to store the boost data
     public class BoostResource : ResourceObject

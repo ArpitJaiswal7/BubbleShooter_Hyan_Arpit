@@ -1,19 +1,7 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads.AdUnits
+namespace com.kshkum.ShootGame.Scripts.Ads.AdUnits
 {
     public class AdsListener : IAdsListener
     {

@@ -11,9 +11,9 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Boosts;
+using com.kshkum.ShootGame.Scripts.Gameplay.Boosts;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
     public class BoostSettings : SettingsBase
     {

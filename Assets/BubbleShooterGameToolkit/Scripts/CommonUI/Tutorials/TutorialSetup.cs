@@ -10,13 +10,13 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Tutorials
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Tutorials
 {
-    [CreateAssetMenu(fileName = "Tutorial", menuName = "BubbleShooterGameToolkit/Add Tutorial", order = 1)]
+    [CreateAssetMenu(fileName = "Tutorial", menuName = "com.kshkum.ShootGame/Add Tutorial", order = 1)]
     public class TutorialSetup : ScriptableObject
     {
         public TargetScriptable target;

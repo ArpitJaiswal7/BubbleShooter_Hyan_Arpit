@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Settings;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Boosts
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Boosts
 {
     public class MulticolorBallBoostResource : BoostResource
     {

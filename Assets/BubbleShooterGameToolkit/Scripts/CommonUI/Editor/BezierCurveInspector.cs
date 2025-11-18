@@ -13,7 +13,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Editor
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Editor
 {
     #if UNITY_EDITOR
     [CustomEditor(typeof(BezierGridLayout))]

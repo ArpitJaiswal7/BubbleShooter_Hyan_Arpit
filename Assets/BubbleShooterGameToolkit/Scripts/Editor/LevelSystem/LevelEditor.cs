@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -12,14 +12,14 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.Editor.LevelSystem
 {
     [CustomEditor(typeof(Level))]
     [CanEditMultipleObjects]
@@ -98,7 +98,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
 
         public void LoadLevel(int n)
         {
-            Selection.activeObject = AssetDatabase.LoadMainAssetAtPath("Assets/BubbleShooterGameToolkit/Resources/Levels/Level_" + (n) + ".asset");
+            Selection.activeObject = AssetDatabase.LoadMainAssetAtPath("Assets/com.kshkum.ShootGame/Resources/Levels/Level_" + (n) + ".asset");
             if(!Application.isPlaying)
             {
                 // PlayerPrefs.SetInt("OpenLevel", n);

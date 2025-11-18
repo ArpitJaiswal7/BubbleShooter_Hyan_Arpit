@@ -13,7 +13,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Pool
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Pool
 {
     class BabyTargetPool : PoolObject
     {

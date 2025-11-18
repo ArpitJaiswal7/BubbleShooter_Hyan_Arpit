@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers
 {
     [RequireComponent(typeof(BallContainerBase))]
     public class ColorUpdate : MonoBehaviour

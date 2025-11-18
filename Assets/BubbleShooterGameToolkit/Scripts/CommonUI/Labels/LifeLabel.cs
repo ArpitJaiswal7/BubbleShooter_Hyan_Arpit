@@ -10,9 +10,9 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.System;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Labels
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Labels
 {
     public class LifeLabel : Label
     {

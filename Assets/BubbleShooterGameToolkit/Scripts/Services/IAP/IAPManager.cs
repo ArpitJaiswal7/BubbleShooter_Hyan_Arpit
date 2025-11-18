@@ -1,21 +1,9 @@
-﻿// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace BubbleShooterGameToolkit.Scripts.Services
+namespace com.kshkum.ShootGame.Scripts.Services
 {
     public class IAPManager : MonoBehaviour
     {

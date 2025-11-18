@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -12,16 +12,16 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.Settings;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Gameplay;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEditor;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor
+namespace com.kshkum.ShootGame.Scripts.Editor
 {
     public static class EditorItemsLoader
     {
@@ -29,7 +29,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor
         {
             // Load assets in the initial folder
             var editorIconsSettings = Resources.Load<EditorIconsSettings>("EditorSettings/EditorIcons");
-            return LoadAssetsInFolder("Assets/BubbleShooterGameToolkit/Prefabs/Balls/", editorIconsSettings);
+            return LoadAssetsInFolder("Assets/com.kshkum.ShootGame/Prefabs/Balls/", editorIconsSettings);
         }
 
         static List<LevelItemElement> LoadAssetsInFolder(string folderPath, EditorIconsSettings editorIcons)

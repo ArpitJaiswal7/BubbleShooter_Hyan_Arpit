@@ -18,7 +18,7 @@ using UnityEngine.Purchasing;
 using UnityEngine.Purchasing.Extension;
 #endif
 
-namespace BubbleShooterGameToolkit.Scripts.Services
+namespace com.kshkum.ShootGame.Scripts.Services
 {
 #if UNITY_PURCHASING
 

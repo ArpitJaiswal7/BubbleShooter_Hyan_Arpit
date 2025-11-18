@@ -1,35 +1,23 @@
-
- 
-
-
-
-
-
-
-
-
-
-
 using System;
 using System.Globalization;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Daily;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Data;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Boosts;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.Map;
-using BubbleShooterGameToolkit.Scripts.Services;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI.Daily;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Boosts;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Map;
+using com.kshkum.ShootGame.Scripts.Services;
+using com.kshkum.ShootGame.Scripts.Settings;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Event = UnityEngine.Event;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public class GameManager : SingletonBehaviour<GameManager>
     {

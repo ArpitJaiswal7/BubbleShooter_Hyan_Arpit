@@ -12,11 +12,11 @@
 
 using System;
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.System;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
     public class PowerSettings : SingletonScriptableSettings<PowerSettings>
     {

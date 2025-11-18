@@ -14,15 +14,15 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Pool;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.Pool;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 
 #endregion
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Hidden
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Hidden
 {
     ///  item like a web, which holds ball
     public class Holder : Attachable

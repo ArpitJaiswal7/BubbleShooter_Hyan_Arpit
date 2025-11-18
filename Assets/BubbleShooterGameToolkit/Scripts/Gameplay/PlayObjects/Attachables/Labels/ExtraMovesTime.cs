@@ -10,9 +10,9 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels
 {
     public class ExtraMovesTime : LabelItem
     {

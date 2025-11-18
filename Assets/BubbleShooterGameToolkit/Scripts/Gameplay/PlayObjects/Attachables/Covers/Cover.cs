@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Properties;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Properties;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Covers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Covers
 {
     ///script for objects that appears above a ball
     public class Cover : Attachable

@@ -14,15 +14,15 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
 #endregion
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     /// color generator
     public class ColorManager : Singleton<ColorManager>

@@ -10,12 +10,12 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.GUI;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers;
+using com.kshkum.ShootGame.Scripts.Gameplay.GUI;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -23,7 +23,7 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.UI;
 using Object = UnityEngine.Object;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     /// Input manager detects user input, launches the ball and debug stuff
     public partial class LevelManager

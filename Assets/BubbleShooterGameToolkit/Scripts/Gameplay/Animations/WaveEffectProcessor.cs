@@ -13,13 +13,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.System;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Animations
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Animations
 {
     public class WaveEffectProcessor : SingletonBehaviour<WaveEffectProcessor>
     {

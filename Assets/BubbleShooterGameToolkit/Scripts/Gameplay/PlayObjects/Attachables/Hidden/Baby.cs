@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Hidden
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Hidden
 {
     public class Baby : Hidden
     {

@@ -12,14 +12,14 @@
 
 using System;
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.CommonUI;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
      public enum EGameEvent
     {

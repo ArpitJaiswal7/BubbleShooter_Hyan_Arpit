@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -12,13 +12,13 @@
 
 using System;
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.Editor.LevelSystem
 {
     public class Tab2VisualElement : VisualElement
     {

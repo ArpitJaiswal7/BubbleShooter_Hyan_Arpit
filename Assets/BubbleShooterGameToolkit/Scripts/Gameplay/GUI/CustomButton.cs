@@ -11,12 +11,12 @@
 
 
 using System.Collections;
-using BubbleShooterGameToolkit.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Audio;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
+namespace com.kshkum.ShootGame.Scripts.Gameplay.GUI
 {
     public class CustomButton : Button
     {

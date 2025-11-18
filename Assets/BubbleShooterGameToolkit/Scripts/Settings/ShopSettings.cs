@@ -12,11 +12,11 @@
 
 using System;
 
-// using BubbleShooterGameToolkit.Scripts.Settings.Editor;
+// using com.kshkum.ShootGame.Scripts.Settings.Editor;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
-    // [EditPrefab("Assets/BubbleShooterGameToolkit/Resources/Popups/CoinsShop.prefab")]
+    // [EditPrefab("Assets/com.kshkum.ShootGame/Resources/Popups/CoinsShop.prefab")]
     public class ShopSettings : SettingsBase
     {
         public ShopItemEditor[] shopItems;

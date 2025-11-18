@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
+namespace com.kshkum.ShootGame.Scripts.Gameplay.GUI
 {
     public class SafeArea : MonoBehaviour
     {

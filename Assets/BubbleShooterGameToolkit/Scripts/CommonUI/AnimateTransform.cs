@@ -14,7 +14,7 @@ using System;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI
+namespace com.kshkum.ShootGame.Scripts.CommonUI
 {
     [RequireComponent(typeof(RectTransform))]
     public class AnimateTransform : MonoBehaviour

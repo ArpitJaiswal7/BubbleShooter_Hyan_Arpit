@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using DG.Tweening;
 using UnityEngine.Rendering;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers
 {
     public class BoostBallContainer : BallContainerBase
     {

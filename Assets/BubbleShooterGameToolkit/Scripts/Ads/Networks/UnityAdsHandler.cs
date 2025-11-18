@@ -10,14 +10,14 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads
+namespace com.kshkum.ShootGame.Scripts.Ads
 {
     //#if UNITY_ADS
-    //[CreateAssetMenu(fileName = "UnityAdsHandler", menuName = "BubbleShooterGameToolkit/Ads/UnityAdsHandler")]
+    //[CreateAssetMenu(fileName = "UnityAdsHandler", menuName = "com.kshkum.ShootGame/Ads/UnityAdsHandler")]
     //public class UnityAdsHandler : AdsHandlerBase, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
     //{
     //    private bool rewardedLoaded;

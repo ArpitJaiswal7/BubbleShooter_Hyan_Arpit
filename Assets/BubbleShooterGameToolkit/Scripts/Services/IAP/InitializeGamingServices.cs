@@ -17,7 +17,7 @@ using Unity.Services.Core.Environments;
 #endif
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Services
+namespace com.kshkum.ShootGame.Scripts.Services
 {
     public class InitializeGamingServices : MonoBehaviour
     {

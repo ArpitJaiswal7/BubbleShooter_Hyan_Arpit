@@ -10,12 +10,12 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads.Networks
+namespace com.kshkum.ShootGame.Scripts.Ads.Networks
 {
-    [CreateAssetMenu(fileName = "IronsourceAdsHandler", menuName = "BubbleShooterGameToolkit/Ads/IronsourceAdsHandler")]
+    [CreateAssetMenu(fileName = "IronsourceAdsHandler", menuName = "com.kshkum.ShootGame/Ads/IronsourceAdsHandler")]
     public class IronsourceAdsHandler : AdsHandlerBase
     {
         private IAdsListener _listener;

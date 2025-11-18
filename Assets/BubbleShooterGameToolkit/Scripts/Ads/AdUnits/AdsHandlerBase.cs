@@ -1,19 +1,7 @@
-// // ©2015 - 2024 Candy Smith
- 
-
-
-
-
-
-
-
-
-
-
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Ads
+namespace com.kshkum.ShootGame.Scripts.Ads
 {
     public abstract class AdsHandlerBase : ScriptableObject
     {

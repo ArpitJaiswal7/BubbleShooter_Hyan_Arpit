@@ -12,13 +12,13 @@
 
 using System;
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Boosts;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Gameplay.Boosts;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.BubbleContainers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.BubbleContainers
 {
     /// Draw aim line with dots
     public class AimLine : MonoBehaviour

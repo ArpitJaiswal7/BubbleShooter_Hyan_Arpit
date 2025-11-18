@@ -10,9 +10,9 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Hidden
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Hidden
 {
     public class Hidden : Attachable
     {

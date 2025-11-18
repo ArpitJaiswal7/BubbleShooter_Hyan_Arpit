@@ -11,12 +11,12 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.System;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     public class MatchingManager
     {

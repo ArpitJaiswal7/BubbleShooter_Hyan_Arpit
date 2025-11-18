@@ -10,14 +10,14 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.Animations;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Gameplay.Animations;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Types;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using DG.Tweening;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems
 {
     public class Bomb : ExplosiveBall
     {

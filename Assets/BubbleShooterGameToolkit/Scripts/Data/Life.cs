@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.Settings;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Data
+namespace com.kshkum.ShootGame.Scripts.Data
 {
     public class Life : ResourceObject
     {

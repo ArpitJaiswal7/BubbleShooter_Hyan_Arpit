@@ -12,7 +12,7 @@
 
 using System;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects
 {
     [Flags]
     public enum EBallFlags

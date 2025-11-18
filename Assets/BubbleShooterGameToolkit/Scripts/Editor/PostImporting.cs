@@ -1,4 +1,4 @@
-﻿// // ©2015 - 2024 Candy Smith
+﻿
  
 
 
@@ -12,12 +12,12 @@
 
 using System;
 using System.IO;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public class PostImporting : AssetPostprocessor
     {
@@ -58,7 +58,7 @@ namespace BubbleShooterGameToolkit.Scripts.System
                 // get GUID of the IronsourceAssembly.asmdef
                 var guid = AssetDatabase.AssetPathToGUID(asmdefPath);
                 // assign asmdef to the Scripts/Ads/CandySmith.Ads.asmdef
-                var adsAsmdefPath = Path.Combine("Assets/BubbleShooterGameToolkit/Scripts/Ads", "CandySmith.Ads.asmdef");
+                var adsAsmdefPath = Path.Combine("Assets/com.kshkum.ShootGame/Scripts/Ads", "CandySmith.Ads.asmdef");
                 if (File.Exists(adsAsmdefPath))
                 {
                     var asmdef = JsonUtility.FromJson<AssemblyDefinition>(File.ReadAllText(adsAsmdefPath));

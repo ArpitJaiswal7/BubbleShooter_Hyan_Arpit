@@ -11,13 +11,13 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Pool
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Pool
 {
     public class PoolObject : MonoBehaviour
     {

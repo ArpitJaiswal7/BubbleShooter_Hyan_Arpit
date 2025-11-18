@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Audio;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects
 {
     public class WallBounceTrigger : MonoBehaviour
     {

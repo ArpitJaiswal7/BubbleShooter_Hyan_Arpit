@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Attachables.Labels
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.Attachables.Labels
 {
     class ExtraItem : LabelItem
     {

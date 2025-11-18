@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Labels
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Labels
 {
     public class PriceRefillLabel : Label
     {

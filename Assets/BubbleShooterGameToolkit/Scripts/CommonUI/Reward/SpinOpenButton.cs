@@ -10,11 +10,11 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Reward
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Reward
 {
     public class SpinOpenButton : MonoBehaviour
     {

@@ -11,11 +11,11 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Data
+namespace com.kshkum.ShootGame.Scripts.Data
 {
     public class GameDataManager : SingletonBehaviour<GameDataManager>
     {

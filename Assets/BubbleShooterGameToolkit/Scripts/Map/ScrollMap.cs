@@ -13,7 +13,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.Map
+namespace com.kshkum.ShootGame.Scripts.Map
 {
     public class ScrollMap : MonoBehaviour
     {

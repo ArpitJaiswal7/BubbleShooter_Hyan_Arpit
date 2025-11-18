@@ -10,13 +10,13 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Ads.AdUnits;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
+namespace com.kshkum.ShootGame.Scripts.Gameplay.GUI
 {
     public class RewardedButtonHandler : MonoBehaviour
     {

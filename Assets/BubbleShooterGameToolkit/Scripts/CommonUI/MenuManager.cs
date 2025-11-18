@@ -13,12 +13,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.System;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI
+namespace com.kshkum.ShootGame.Scripts.CommonUI
 {
     public class MenuManager : SingletonBehaviour<MenuManager>
     {

@@ -10,9 +10,9 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Audio;
+using com.kshkum.ShootGame.Scripts.Audio;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
 	public class PreWinBanner : Banner {
 		private void OnEnable()

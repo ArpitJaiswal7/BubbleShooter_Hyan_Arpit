@@ -10,10 +10,10 @@
 
 
 
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.FieldObjects
+namespace com.kshkum.ShootGame.Scripts.Gameplay.FieldObjects
 {
     class BottomWalForRotate : Wall
     {

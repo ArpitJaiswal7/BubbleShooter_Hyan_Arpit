@@ -4,7 +4,7 @@
             <ui:EnumField type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" name="levelMode" binding-path="levelMode" style="width: 136px;" />
             <ui:IntegerField value="42" binding-path="moves" style="flex-grow: 1;" />
         </ui:VisualElement>
-        <ui:EnumField label="Level Type" type="BubbleShooterGameToolkit.Scripts.Enums.ELevelTypes, BubbleShooterRef" binding-path="levelType" name="LevelType" style="flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: auto;" />
+        <ui:EnumField label="Level Type" type="com.kshkum.ShootGame.Scripts.Enums.ELevelTypes, BubbleShooterRef" binding-path="levelType" name="LevelType" style="flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: auto;" />
         <ui:Toggle label="Holes" binding-path="holes" />
         <ui:IntegerField label="Size Y" value="42" binding-path="sizeY" name="SizeY" />
         <ui:VisualElement name="Stars" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 0; flex-basis: initial;">
@@ -14,7 +14,7 @@
                 <ui:IntegerField value="42" name="Star3" style="flex-grow: 1;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <uie:ObjectField label="Tutorial" type="BubbleShooterGameToolkit.Scripts.CommonUI.Tutorials.TutorialSetup, BubbleShooterRef" binding-path="tutorial" name="Tutorial" />
+        <uie:ObjectField label="Tutorial" type="com.kshkum.ShootGame.Scripts.CommonUI.Tutorials.TutorialSetup, BubbleShooterRef" binding-path="tutorial" name="Tutorial" />
         <uie:ObjectField label="Background" type="UnityEngine.Sprite, UnityEngine.CoreModule" binding-path="background" name="Background" />
         <ui:VisualElement name="RandomColors" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 0; flex-basis: initial;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; align-items: stretch; align-self: stretch; flex-shrink: 0; flex-basis: initial; min-width: auto; max-width: none;">

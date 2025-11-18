@@ -11,14 +11,14 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Reward;
-using BubbleShooterGameToolkit.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.CommonUI.Reward;
+using com.kshkum.ShootGame.Scripts.Data;
 
-// using BubbleShooterGameToolkit.Scripts.Settings.Editor;
+// using com.kshkum.ShootGame.Scripts.Settings.Editor;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
-    // [EditPrefab("Assets/BubbleShooterGameToolkit/Resources/Popups/LuckySpin.prefab")]
+    // [EditPrefab("Assets/com.kshkum.ShootGame/Resources/Popups/LuckySpin.prefab")]
     public class SpinSettings: SettingsBase
     {
         public int costToSpin = 10;

@@ -16,7 +16,7 @@ using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace BubbleShooterGameToolkit.Scripts.Audio
+namespace com.kshkum.ShootGame.Scripts.Audio
 {
     public class SoundMute : MonoBehaviour
     {

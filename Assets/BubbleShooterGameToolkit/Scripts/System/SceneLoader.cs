@@ -12,14 +12,14 @@
 
 using System;
 using System.Collections;
-using BubbleShooterGameToolkit.Scripts.CommonUI;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.CommonUI;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace BubbleShooterGameToolkit.Scripts.System
+namespace com.kshkum.ShootGame.Scripts.System
 {
     public class SceneLoader : SingletonBehaviour<SceneLoader>
     {

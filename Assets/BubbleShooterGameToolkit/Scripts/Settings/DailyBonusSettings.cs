@@ -11,13 +11,13 @@
 
 
 using System;
-using BubbleShooterGameToolkit.Scripts.Data;
+using com.kshkum.ShootGame.Scripts.Data;
 using UnityEngine;
-// using BubbleShooterGameToolkit.Scripts.Settings.Editor;
+// using com.kshkum.ShootGame.Scripts.Settings.Editor;
 
-namespace BubbleShooterGameToolkit.Scripts.Settings
+namespace com.kshkum.ShootGame.Scripts.Settings
 {
-    // [EditPrefab("Assets/BubbleShooterGameToolkit/Resources/Popups/DailyBonus.prefab")]
+    // [EditPrefab("Assets/com.kshkum.ShootGame/Resources/Popups/DailyBonus.prefab")]
     public class DailyBonusSettings : ScriptableObject
     {
         public RewardSetting[] rewards = Array.Empty<RewardSetting>();

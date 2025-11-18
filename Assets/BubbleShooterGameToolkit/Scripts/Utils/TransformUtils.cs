@@ -13,7 +13,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Utils
+namespace com.kshkum.ShootGame.Scripts.Utils
 {
     public static class TransformUtils
     {

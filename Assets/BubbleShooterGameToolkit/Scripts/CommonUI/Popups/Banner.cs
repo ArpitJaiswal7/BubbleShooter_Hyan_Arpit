@@ -13,7 +13,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Popups
 {
     public class Banner : Popup
     {

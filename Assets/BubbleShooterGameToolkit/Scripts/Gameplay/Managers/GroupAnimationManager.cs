@@ -13,11 +13,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.System;
-using BubbleShooterGameToolkit.Scripts.Utils;
+using com.kshkum.ShootGame.Scripts.System;
+using com.kshkum.ShootGame.Scripts.Utils;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Managers
 {
     public class GroupAnimationManager : SingletonBehaviour<GroupAnimationManager>
     {

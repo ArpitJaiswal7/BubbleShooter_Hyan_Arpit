@@ -11,11 +11,11 @@
 
 
 using System.Collections.Generic;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Animations;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.Animations;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.ExtraItems
+namespace com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects.ExtraItems
 {
     public class DirectBomb : ExplosiveBall
     {

@@ -13,9 +13,9 @@
 using System;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Targets
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Targets
 {
-    [CreateAssetMenu(fileName = "target", menuName = "BubbleShooterGameToolkit/Add target", order = 1)]
+    [CreateAssetMenu(fileName = "target", menuName = "com.kshkum.ShootGame/Add target", order = 1)]
     public class TargetScriptable : ScriptableObject
     {
         public bool countFromField;

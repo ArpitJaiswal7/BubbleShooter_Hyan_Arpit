@@ -12,11 +12,11 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Utils
+namespace com.kshkum.ShootGame.Scripts.Utils
 {
     public static class ImageUtils
     {

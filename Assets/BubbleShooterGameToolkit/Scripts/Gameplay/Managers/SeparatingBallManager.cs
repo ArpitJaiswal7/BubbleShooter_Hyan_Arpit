@@ -13,13 +13,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
-using BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Managers;
+using com.kshkum.ShootGame.Scripts.Gameplay.PlayObjects;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Gameplay.Animations
+namespace com.kshkum.ShootGame.Scripts.Gameplay.Animations
 {
     /// Checks all balls to determine if they're connected. If not, triggers them to drop down.
     public class SeparatingBallManager : MonoBehaviour

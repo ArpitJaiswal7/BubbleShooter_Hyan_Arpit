@@ -1,4 +1,4 @@
-// // ©2015 - 2024 Candy Smith
+
  
 
 
@@ -13,13 +13,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.LevelSystem;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.LevelSystem;
+using com.kshkum.ShootGame.Scripts.Settings;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.Editor.LevelSystem
 {
     public class Tab1VisualElement : VisualElement
     {
@@ -36,7 +36,7 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
             this.level = level;
             ballColors = Resources.Load<GameplaySettings>("Settings/GameplaySettings").ballColors;
             AddToClassList("tab1-visual-element");
-            DrawTab1(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/BubbleShooterGameToolkit/UIBuilder/GeneralEditor.uxml").CloneTree());
+            DrawTab1(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/com.kshkum.ShootGame/UIBuilder/GeneralEditor.uxml").CloneTree());
         }
 
         private void DrawTab1(TemplateContainer visualTree)

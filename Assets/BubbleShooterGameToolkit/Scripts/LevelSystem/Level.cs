@@ -13,15 +13,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Tutorials;
-using BubbleShooterGameToolkit.Scripts.Enums;
-using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
+using com.kshkum.ShootGame.Scripts.CommonUI.Tutorials;
+using com.kshkum.ShootGame.Scripts.Enums;
+using com.kshkum.ShootGame.Scripts.Gameplay.Targets;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.LevelSystem
+namespace com.kshkum.ShootGame.Scripts.LevelSystem
 {
     /// basic level object
-    [CreateAssetMenu(fileName = "Level", menuName = "BubbleShooterGameToolkit/Level", order = 1)]
+    [CreateAssetMenu(fileName = "Level", menuName = "com.kshkum.ShootGame/Level", order = 1)]
     public class Level : ScriptableObject
     {
         // [Header("Moves")] 

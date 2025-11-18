@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Enums
+namespace com.kshkum.ShootGame.Scripts.Enums
 {
     public enum EStatus
     {

@@ -13,7 +13,7 @@
 using System.Collections;
 using UnityEditor;
 
-namespace BubbleShooterGameToolkit.Scripts.Utils
+namespace com.kshkum.ShootGame.Scripts.Utils
 {
     public class DefineSymbolsUtils
     {

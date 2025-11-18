@@ -10,7 +10,7 @@
 
 
 
-namespace BubbleShooterGameToolkit.Scripts.Ads
+namespace com.kshkum.ShootGame.Scripts.Ads
 {
     public enum EAdType
     {

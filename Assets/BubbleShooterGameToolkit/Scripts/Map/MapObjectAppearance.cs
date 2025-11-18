@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.Map
+namespace com.kshkum.ShootGame.Scripts.Map
 {
     public class MapObjectAppearance : MonoBehaviour
     {

@@ -12,11 +12,11 @@
 
 using System;
 using System.Linq;
-using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
-using BubbleShooterGameToolkit.Scripts.Settings;
+using com.kshkum.ShootGame.Scripts.CommonUI.Popups;
+using com.kshkum.ShootGame.Scripts.Settings;
 using UnityEngine;
 
-namespace BubbleShooterGameToolkit.Scripts.CommonUI.Daily
+namespace com.kshkum.ShootGame.Scripts.CommonUI.Daily
 {
     public class DailyBonus : PopupWithCurrencyLabel
     {
